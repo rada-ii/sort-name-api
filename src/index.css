@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+  font-size: 2rem;
+}
+
+body {
+  padding: 2rem 4rem;
+  display: flex;
+  justify-content: center;
+}
+
+.container {
+  background-color: #777;
+
+  padding: 3rem;
+  margin: 2rem auto;
+  max-width: 90rem;
+}
+
+ul {
+  color: #fff;
+}
+
+@media (max-width: 800px) {
+  * {
+    font-size: 1rem;
+  }
+}
